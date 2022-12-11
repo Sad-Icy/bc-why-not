@@ -9,31 +9,23 @@
 | meme	|	Sends a random meme.	|	`meme`	|
 | pokemon	|	Get information on a pokemon.	|	`pokemon <pokemon>`	|
 | random	|	Replies with a random number.	|	`random <LowNum> <HighNum>`	|
-| reminder	|	Set a reminder.	|	`reminder <time> <information>`	|
-| screenshot	|	Get a screenshot of a website.	|	`screenshot <url>`	|
-| urban	|	Get the urban dictionary of a word.	|	`urban <word>`	|
-
-
-## Host
-|	Command	| description	| Usage
-|---------------|--------------------|--------------|
-| docs	|	Displays Discord.js documentation.	|	`docs <query>`	|
-| eval	|	Evaluates JS code.	|	`eval <code>`	|
-| lavalink	|	Displays Lavalink node information	|	`lavalink [host / list]`	|
-| node	|	Add/remove a Node for lavalink.	|	`node <add / remove> [host] [password] [port]`	|
-| reload	|	Reloads a command.	|	`reload <command / event>`	|
-| script	|	Runs a script file.	|	`script <file name> [...params]`	|
-| shutdown	|	Shutdowns the bot.	|	`shutdown`	|
-| suggestion	|	Add a suggestion to bot	|	`suggestion <title> - <description> - <plugin>`	|
-| test	|	Sends information about all the commands that I can do.	|	`help [command]`	|
-| user	|	Edit a user's data	|	`user <id> [premium / banned / rank / reset] [true / false]`	|
+| blurpify	|	Blurpify an image.	|	`blurpify [file]`	|
+| cat	|	Have a nice picture of a cat.	|	`cat`	|
+| changemymind	|	Create a change my mind image.	|	`changemymind <text>`	|
+| clyde	|	Create a fake Clyde message.	|	`clyde <text>`	|
+| deepfry	|	Deepfry an image.	|	`deepfry [file]`	|
+| dog	|	Have a nice picture of a dog.	|	`dog`	|
+| squirrel	|	Have a nice picture of a squirrel.	|	`squirrel`	|
+| image	|	Finds an image based on the topic.	|	`image <topic>`	|
+| qrcode	|	Create a QR code.	|	`qrcode <text / file>`	|
+| threats	|	Creates a threat meme.	|	`threats [image]`	|
+| twitter	|	Create a fake Twitter tweet.	|	`twitter [user] <text>`	|
 
 
 ## Guild
 |	Command	| description	| Usage
 |---------------|--------------------|--------------|
 | avatar	|	Displays user's avatar.	|	`avatar [user]`	|
-| dashboard	|	Sends a link to your Server's dashboard.	|	`dashboard`	|
 | discrim	|	Discrim	|	`discrim [discriminator]`	|
 | emoji-list	|	Displays the server's emojis	|	`emojilist`	|
 | firstmessage	|	Gets the first message from the channel.	|	`firstmessage [channel]`	|
@@ -51,27 +43,6 @@
 | g-edit	|	Edit a giveaway.	|	`g-edit <messageID> <AddedTime> <newWinnerCount> <NewPrize>`	|
 | g-reroll	|	reroll a giveaway.	|	`g-reroll <messageID> [winners]`	|
 | g-start	|	Start a giveaway	|	`g-start <time> <Number of winners> <prize>`	|
-
-
-## Image
-|	Command	| description	| Usage
-|---------------|--------------------|--------------|
-| blurpify	|	Blurpify an image.	|	`blurpify [file]`	|
-| captcha	|	Create a captcha image.	|	`captcha`	|
-| cat	|	Have a nice picture of a cat.	|	`cat`	|
-| changemymind	|	Create a change my mind image.	|	`changemymind <text>`	|
-| clyde	|	Create a fake Clyde message.	|	`clyde <text>`	|
-| deepfry	|	Deepfry an image.	|	`deepfry [file]`	|
-| dog	|	Have a nice picture of a dog.	|	`dog`	|
-| generate	|	Generate a custom image.	|	`generate <option> [image]`	|
-| image	|	Finds an image based on the topic.	|	`image <topic>`	|
-| phcomment	|	Create a fake Pornhub comment.	|	`phcomment [user] <text>`	|
-| qrcode	|	Create a QR code.	|	`qrcode <text / file>`	|
-| ship	|	Create a ship image.	|	`ship <user1> [user2]`	|
-| stickbug	|	Create a stickbug meme.	|	`stickbug [file]`	|
-| threats	|	Creates a threat meme.	|	`threats [image]`	|
-| twitter	|	Create a fake Twitter tweet.	|	`twitter [user] <text>`	|
-| whowouldwin	|	Create a whowouldwin image.	|	`whowouldwin <user1> [user2]`	|
 
 
 ## Level
@@ -115,9 +86,12 @@
 | status	|	Gets the status of the bot.	|	`status`	|
 | support	|	Get support on the bot.	|	`support`	|
 | uptime	|	Gets the uptime of the bot.	|	`uptime`	|
+| reminder	|	Set a reminder.	|	`reminder <time> <information>`	|
+| screenshot	|	Get a screenshot of a website.	|	`screenshot <url>`	|
+| urban	|	Get the urban dictionary of a word.	|	`urban <word>`	|
 
 
-## Music
+## Music (disabled while fixing it)
 |	Command	| description	| Usage
 |---------------|--------------------|--------------|
 | 247	|	Stays in the voice channel even if no one is in it.	|	`24/7`	|
@@ -155,20 +129,6 @@
 | volume	|	Changes the volume of the song	|	`volume <Number>`	|
 
 
-## NSFW
-|	Command	| description	| Usage
-|---------------|--------------------|--------------|
-| 4k	|	Look at NSFW images.	|	`4k`	|
-| anal	|	Look at NSFW images.	|	`anal`	|
-| ass	|	Look at NSFW images.	|	`ass`	|
-| boobs	|	Look at NSFW images.	|	`boobs`	|
-| gonewild	|	Look at NSFW images.	|	`gonewild`	|
-| hneko	|	Look at NSFW images.	|	`hneko`	|
-| pgif	|	Look at NSFW images.	|	`pgif`	|
-| pussy	|	Look at NSFW images.	|	`pussy`	|
-| thigh	|	Look at NSFW images.	|	`thigh`	|
-
-
 ## Plugins
 |	Command	| description	| Usage
 |---------------|--------------------|--------------|
@@ -183,7 +143,6 @@
 |	Command	| description	| Usage
 |---------------|--------------------|--------------|
 | fortnite	|	Get information on a Fortnite account.	|	`fortnite <kbm / gamepad / touch> <user>`	|
-| instagram	|	Get information on an Instagram account.	|	`instagram <user>`	|
 | mc	|	Pings a minecraft for information.	|	`mc <IP> [Port]`	|
 | r6	|	Gets statistics on a Rainbow 6 Account.	|	`r6 <user> [pc / xbox / ps4] [eu / na / as]`	|
 | reddit	|	Send a random image from a chosen subreddit.	|	`reddit <subreddit>`	|
@@ -191,21 +150,3 @@
 | twitch	|	Get information on a twitch account.	|	`twitch <user>`	|
 | weather	|	Look up the weather in a certain area.	|	`weather <location>`	|
 
-
-## Tags
-|	Command	| description	| Usage
-|---------------|--------------------|--------------|
-| tag-add	|	Add a new tag to the server	|	`tag-add <name> <response>`	|
-| tag-delete	|	Remove a tag from the server	|	`tag-delete <name>`	|
-| tag-edit	|	Edit a tag from this server	|	`tag-edit <rename / edit> <name> <newName / newResponse>`	|
-| tag-view	|	View the server's tag(s)	|	`tag-view [name]`	|
-| tags	|	Edit server's tags	|	`tag <add/del/edit/view> <required paramters>`	|
-
-
-## Ticket
-|	Command	| description	| Usage
-|---------------|--------------------|--------------|
-| ticket-close	|	Closes the current ticket channel	|	`ticket-close`	|
-| ticket-create	|	Creates a ticket	|	`ticket-create [reason]`	|
-| ticket-setup	|	Setups the ticket plugin	|	`ticket-setup`	|
-| ticket	|	Information on ticket plugin.	|	`ticket`	|
