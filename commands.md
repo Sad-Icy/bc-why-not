@@ -91,7 +91,7 @@
 | urban	|	Get the urban dictionary of a word.	|	`urban <word>`	|
 
 
-## Music (disabled while fixing it)
+## Music
 |	Command	| description	| Usage
 |---------------|--------------------|--------------|
 | 247	|	Stays in the voice channel even if no one is in it.	|	`24/7`	|
