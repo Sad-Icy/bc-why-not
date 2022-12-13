@@ -79,7 +79,6 @@
 |	Command	| description	| Usage
 |---------------|--------------------|--------------|
 | about	|	Information about me.	|	`about`	|
-| help	|	Sends information about all the commands that I can do.	|	`help [command]`	|
 | invite	|	Send an invite link so people can add me to their server.	|	`invite`	|
 | privacy	|	Sends a link to the privacy policy.	|	`privacy`	|
 | shorturl	|	Creates a shorturl on the URL you sent.	|	`shorturl`	|
